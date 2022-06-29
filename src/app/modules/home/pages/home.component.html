@@ -1,4 +1,6 @@
 <div style="padding: 18px">
+  <app-header></app-header>
+  <h1 class="font-medium my-8 text-4xl text-center">Drinks before Eating!</h1>
   <ul>
     <li *ngFor="let item of productsData | async; trackBy: trackById">
       <app-product-item
@@ -7,6 +9,7 @@
         [promotion]="item.promotion"
         [size]="item.size"
         [price]="item.price"
+        [color]="item.color"
       ></app-product-item>
     </li>
   </ul>

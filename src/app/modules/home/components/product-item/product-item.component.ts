@@ -11,6 +11,7 @@ export class ProductItemComponent implements OnInit {
   @Input() title?: string;
   @Input() size?: string;
   @Input() price?: string;
+  @Input() color?: string;
 
   constructor() {}
 

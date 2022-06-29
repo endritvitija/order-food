@@ -5,7 +5,8 @@
         "promotion": "Sponsored",
         "title": "Coca-Cola",
         "size": "0.5l",
-        "price": "CHF 5.35"
+        "price": "CHF 5.35",
+        "color": "#FFF6F0"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "promotion": "Sponsored",
         "title": "Red Bull",
         "size": "0.5l",
-        "price": "CHF 6.19"
+        "price": "CHF 6.19",
+        "color": "#F1F5FE"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "promotion": "Sponsored",
         "title": "Sprite",
         "size": "0.5l",
-        "price": "CHF 4.95"
+        "price": "CHF 4.95",
+        "color": "#ECFFEB"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "promotion": "Sponsored",
         "title": "Monster Energy",
         "size": "0.5l",
-        "price": "CHF 4.64"
+        "price": "CHF 4.64",
+        "color": "#EAF2FD"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "promotion": "Sponsored",
         "title": "Coca-Cola",
         "size": "0.5l",
-        "price": "CHF 5.35"
+        "price": "CHF 5.35",
+        "color": "#FFF6F0"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "promotion": "Sponsored",
         "title": "Red Bull",
         "size": "0.5l",
-        "price": "CHF 6.19"
+        "price": "CHF 6.19",
+        "color": "#F1F5FE"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "promotion": "Sponsored",
         "title": "Sprite",
         "size": "0.5l",
-        "price": "CHF 4.95"
+        "price": "CHF 4.95",
+        "color": "#ECFFEB"
     },
     {
         "id": 8,
@@ -61,6 +68,7 @@
         "promotion": "Sponsored",
         "title": "Monster Energy",
         "size": "0.5l",
-        "price": "CHF 4.64"
+        "price": "CHF 4.64",
+        "color": "#EAF2FD"
     }
 ]
