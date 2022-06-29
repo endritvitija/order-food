@@ -1,0 +1,52 @@
+.quantity__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 86px;
+    height: 36px;
+
+    background-color: #F5F7FB;
+    border-radius: 43px;
+
+    padding: 10px 8px;
+
+    &--minus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 24px;
+        height: 24px;
+        background-color: white;
+
+        font-family: 'Work Sans', sans-serif;
+
+        border-radius: 12px;
+        border: none;
+    }
+
+    &--number {
+        font-size: 18px;
+        color: #333333;
+
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    &--plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 24px;
+        height: 24px;
+        background-color: #FF6600;
+        color: white;
+
+        font-family: 'Work Sans', sans-serif;
+
+        border-radius: 12px;
+        border: none;
+    }
+}
