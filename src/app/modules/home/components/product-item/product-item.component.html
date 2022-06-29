@@ -1,0 +1,20 @@
+<div class="product__card">
+  <div class="flex">
+    <div class="product__card--image">
+      <img [src]="image" alt="" />
+    </div>
+
+    <div class="product__card--info">
+      <div>
+        <p class="product__card--info-promotion">{{ promotion }}</p>
+        <p class="product__card--info-title">
+          {{ title }} <span class="product__card--info-size">{{ size }}</span>
+        </p>
+      </div>
+      <div class="flex justify-between ">
+        <p class="product__card--info-price">{{ price }}</p>
+        <app-product-quantity></app-product-quantity>
+      </div>
+    </div>
+  </div>
+</div>

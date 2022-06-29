@@ -1,0 +1,13 @@
+<div style="padding: 18px">
+  <ul>
+    <li *ngFor="let item of productsData | async; trackBy: trackById">
+      <app-product-item
+        [image]="item.image"
+        [title]="item.title"
+        [promotion]="item.promotion"
+        [size]="item.size"
+        [price]="item.price"
+      ></app-product-item>
+    </li>
+  </ul>
+</div>
