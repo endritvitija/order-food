@@ -5,4 +5,5 @@ export interface Product {
     title: string;
     size: string;
     price: string;
+    color: string;
 }

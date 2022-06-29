@@ -26,10 +26,10 @@ module.exports = {
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
       'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'gray-light': '#F5F7FB',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Work Sans', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     opacity: {
@@ -82,7 +82,7 @@ module.exports = {
         'none': '0',
         'sm': '.125rem',
         DEFAULT: '.25rem',
-        'lg': '.5rem',
+        'lg': '12px',
         'full': '9999px',
       },
     }
