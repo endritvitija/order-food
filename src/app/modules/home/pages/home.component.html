@@ -1,7 +1,7 @@
 <div style="padding: 18px">
   <app-header></app-header>
-  <h1 class="font-medium my-8 text-4xl text-center">Drinks before Eating!</h1>
-  <ul>
+  <h1 class="font-medium my-8 text-4xl text-center ">Drinks before <br/> Eating!</h1>
+  <ul class="pb-20">
     <li *ngFor="let item of productsData | async; trackBy: trackById">
       <app-product-item
         [image]="item.image"
