@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { ProductQuantityComponent } from './components/product-quantity/product-quantity.component';
 import { CoreModule } from 'src/app/core/core.module';
+import { StickyFooterModule } from 'src/app/shared/components/sticky-footer/sticky-footer.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CoreModule } from 'src/app/core/core.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    CoreModule
+    CoreModule,
+    StickyFooterModule
   ]
 })
 export class HomeModule { }
